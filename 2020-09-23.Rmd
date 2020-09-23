@@ -1,0 +1,19 @@
+---
+title: "課�<a0>�練習模<e7><89><88>"
+author: "lebron"
+date: "2020-09-23"
+output: output_format
+params:
+  id: "410773028"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+
+```
+
