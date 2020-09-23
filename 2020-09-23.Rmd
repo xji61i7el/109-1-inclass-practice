@@ -1,8 +1,8 @@
 ---
-title: "課�<a0>�練習模<e7><89><88>"
+title: "課?<a0>?練習模<e7><89><88>"
 author: "lebron"
 date: "2020-09-23"
-output: output_format
+output: html_document
 params:
   id: "410773028"
 ---
@@ -14,6 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Your code
 
 ```{r}
-
+b = 5
 ```
 
+
+# title
+
+[NTPU](https://www.ntpu.edu.tw)
+```{r}
+
+```
