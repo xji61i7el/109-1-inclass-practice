@@ -1,0 +1,38 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "ian"
+date: "2020-10-28"
+output: output_format
+params:
+  id: "410773028"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+today <- list(list("台北市", c(highest_temp = 25), c(lowest_temp = 18)), list("新北市", 
+    c(highest_temp = 24), c(lowest_temp = 15)))
+tomorrow <- list(list("台北市", c(highest_temp = 25), c(lowest_temp = 18)), list("新北市", 
+    c(highest_temp = 24), c(lowest_temp = 15)))
+
+weather <- list(today, tomorrow)
+
+print(weather)
+```
+```{r}
+weather[[1]][[2]][[2]]  # 今天/新北市/highest_temp
+weather[[2]][[2]][[2]]  # 明天/新北市/highest_temp
+```
+```{r}
+str(weather,1)
+str(weather,2)
+str(weather,3)
+```
+```{r}
+weather[[1]][[1]]
+```
+
