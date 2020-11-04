@@ -1,0 +1,42 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "ian"
+date: "2020-11-04"
+output: output_format
+params:
+  id: "410773028"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+a <- c("1", "b", "TRUE")
+a
+a[[2]] <- "c"  # 元素存在: 替換
+a[[4]] <- "7"  # 元素不存在： 增加
+a[c(5, 6)] <- c("J", "K")
+a
+```
+
+```{r}
+library(lubridate)
+list1 <- list(list(name = "Jack", birthday = ymd("1998-03-21"), status = c(height = 177, 
+    weight = 80)))
+
+str(list1)
+```
+
+```{r}
+# 更改日期
+list1[[1]]$birthday <- ymd("1997-03-21")
+
+# 新增資料
+list1[[2]] <- list(name = "Mary", birthday = ymd("1998-08-24"))
+
+str(list1)
+```
+
